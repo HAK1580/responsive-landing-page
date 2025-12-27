@@ -3,7 +3,7 @@ import React from 'react'
 const CalltoAction = () => {
   return (
     <div className='mt-20 ' >
-     <button className='bg-black w-full text-white 
+     <button onClick={()=>alert("Operations are going on please wait!")} className='bg-black w-full text-white 
      p-2.5 text-xl rounded sm:hidden
     active:text-gray-300
   '  >Call to Action</button>
