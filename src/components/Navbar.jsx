@@ -47,7 +47,7 @@ useEffect(() => {
          </div>
 
       </div>
-         <div className={`ham-menue sm:hidden ${isOpen ? 'block' : 'hidden' } `} >
+         <div className={`ham-menue ham-area sm:hidden ${isOpen ? 'block' : 'hidden' } `} >
            <Hamburger /> 
  
          </div>
