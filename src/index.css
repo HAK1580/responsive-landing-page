@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@layer base {
+  
+  body{
+    background-color: rgb(211, 211, 211);
+    color:#111827;
+    font-family: popper,sans-serif;
+  }  /* Custom base styles can go here */
+  *{
+    box-sizing: border-box;
+    margin: 0;
+  }
+}
+@layer utilities{
+    .accent-blue{
+        color: #2563EB;
+
+    }
+}
