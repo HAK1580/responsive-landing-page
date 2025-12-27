@@ -8,7 +8,7 @@ import Footer from './components/Footer.jsx'
 function App() {
  
   return (
-    <div>
+    <div className='flex flex-col overflow-x-hidden' >
     <Navbar/>
     <Hero/>
     <Features />
