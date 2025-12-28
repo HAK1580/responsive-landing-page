@@ -30,7 +30,7 @@ useEffect(() => {
 
 
   return (
-    <div className='nav mx-2   md:w-[98%] md:mx-auto  p-3 my-3'>
+    <div className='nav mx-2   md:w-[98%] md:mx-auto sm:p-3   p-2 my-3'>
       <div className="flex   justify-between">
        <a href="/"> <img   width={70} className='sm:w-20 md:w-25 cursor-pointer ' src="nike.png" alt="not found" />   </a>
          <img onClick={()=>setIsOpen(!isOpen)}  width={30} className={`sm:hidden ham-area `} src={` ${isOpen ? 'cross.svg' : 'hamburger.svg'}  `} alt="not found" />
