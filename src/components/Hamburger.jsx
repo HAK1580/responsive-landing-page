@@ -1,7 +1,7 @@
 import React from 'react'
 const Hamburger = () => {
   return (
-    <div className='border border-gray-500 -mt-1 p-1  bg-gray-200 fixed right-0 mx-auto h-full  w-[70%] ' >
+    <div className='border border-gray-500 -mt-1 p-1  bg-gray-200 fixed right-0 mx-auto h-full  w-[75%] ' >
           <ul className='flex flex-col ml-5 mt-5 gap-6'>
             <li><a className='text-[1.15rem] ham-a' href="/">Home</a></li>
             <li><a className='text-[1.15rem] ham-a' href="/about">About</a></li>
