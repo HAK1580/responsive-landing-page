@@ -4,9 +4,9 @@ const Hamburger = () => {
     <div className='border rounded-xl border-gray-500 -mt-1 p-1  bg-gray-200 fixed right-0.5 mx-auto h-full  w-[75%] ' >
           <ul className='flex flex-col ml-5 mt-5 gap-6'>
             <li><a className='text-[1.15rem] ham-a' href="/">Home</a></li>
-            <li><a className='text-[1.15rem] ham-a' href="/about">About</a></li>
-            <li><a className='text-[1.15rem] ham-a' href="/skills">Features</a></li>
-            <li><a className='text-[1.15rem] ham-a' href="/projects">Contacts</a></li>
+            <li><a className='text-[1.15rem] ham-a' href="/">About</a></li>
+            <li><a className='text-[1.15rem] ham-a' href="/">Features</a></li>
+            <li><a className='text-[1.15rem] ham-a' href="/">Contacts</a></li>
         </ul>
          <div className="social-media mt-18 m-6">
             <h1 className='uppercase   tracking-wide  soge text-[1.3rem]'>Social </h1>
